@@ -7,5 +7,5 @@
 
 2. Build for a distro
     ```
-    pbuilder-dist bionic amd64 build build/zephyr-crosstool-ng-aarch64_*.dsc
+    pbuilder-dist bionic amd64 build build/zephyr-crosstool-aarch64_*.dsc
     ```
