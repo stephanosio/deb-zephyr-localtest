@@ -1,0 +1,4 @@
+# git-build-recipe format 0.4 deb-version {debversion}
+lp:zephyr-crosstool-deb-template master
+nest cache lp:zephyr-crosstool-ng-cache sources master
+nest-part packaging lp:~stephanosio/+git/deb-zephyr zephyr-crosstool-xtensa-intel-s1000 debian master
