@@ -1,0 +1,8 @@
+# git-build-recipe format 0.4 deb-version {debversion}
+lp:zephyr-qemu master
+nest capstone lp:~zephyrproject-rtos/zephyr-qemu/+git/capstone capstone 22ead3e
+nest dtc lp:~zephyrproject-rtos/zephyr-qemu/+git/dtc dtc 88f1890
+nest keycodemapdb lp:~zephyrproject-rtos/zephyr-qemu/+git/keycodemapdb ui/keycodemapdb 6b3d716
+nest berkeley-softfloat-3 lp:~zephyrproject-rtos/zephyr-qemu/+git/berkeley-softfloat-3 tests/fp/berkeley-softfloat-3 b64af41
+nest berkeley-testfloat-3 lp:~zephyrproject-rtos/zephyr-qemu/+git/berkeley-testfloat-3 tests/fp/berkeley-testfloat-3 5a59dce
+nest-part packaging lp:~stephanosio/+git/deb-zephyr zephyr-qemu debian master
