@@ -1,0 +1,3 @@
+# git-build-recipe format 0.4 deb-version {debversion}
+lp:zephyr-crosstool-deb-template master
+nest-part packaging lp:~stephanosio/+git/deb-zephyr zephyr-crosstool debian master
